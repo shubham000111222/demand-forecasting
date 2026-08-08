@@ -1,0 +1,30 @@
+# Data files (ignored to prevent committing large datasets)
+*.csv
+*.parquet
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model checkpoints & logs
+catboost_info/
+*.model
+*.bin
+*.pkl
+*.h5
+*.joblib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary OS files
+.DS_Store
+Thumbs.db
